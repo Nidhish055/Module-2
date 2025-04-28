@@ -13,6 +13,8 @@ To write a Python Program to print numbers  range from M to N (including M and N
 
 ### 🧾 Program
 
+#Name : Nidhish B
+#Reg.NO : 212223050032
 ```python
 a=int(input())
 b=int(input())
