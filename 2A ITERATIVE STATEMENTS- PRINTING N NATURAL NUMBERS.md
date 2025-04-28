@@ -12,10 +12,10 @@ To write a Python Program to print numbers  range from M to N (including M and N
 5. Terminate the program.
 
 ### 🧾 Program
-#Name:Nidhish B
-#Reg no: 212223050032
 
 ```python
+#Name:Nidhish B
+#Reg no: 212223050032
 a=int(input())
 b=int(input())
 for i in range(a,b+1):
