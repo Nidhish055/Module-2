@@ -23,7 +23,7 @@ To write a Python program to find the greatest of two numbers using lambda funct
 
 ### PROGRAM
 
-```
+```python
 #Name: Nidhish B
 #Reg No : 212223050032
 
