@@ -22,7 +22,7 @@ To write a Python program to return the absolute value of a number using an appr
 
 ### PROGRAM
 
-```
+```python
 # Name: Nidhish B
 # Reg.No:212223050032
 
