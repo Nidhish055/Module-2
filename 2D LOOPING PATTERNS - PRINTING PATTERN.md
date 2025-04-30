@@ -4,33 +4,42 @@
 ---
 
 ### AIM  
-To write a Python program to print a triangular star pattern using loops.
+To write a Python program to print inverted pyramid pattern of numbers using loops.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the integer `n` from the user using `input()`. This will determine the number of rows in the pattern.  
-3. Initialize a variable `i = 0`. This will help adjust the spacing before the stars.  
-4. Loop through rows from `0` to `n - 1`:  
-   - For each row, calculate the number of spaces to print using the formula: `((n - rows - 1) * 2) + i`.  
-   - Print the calculated number of spaces using `print(" ", end="")`.  
-   - Increment `i` by 1 after each row.  
-   - Print stars using a nested loop: the number of stars in each row is `rows + 1`, printed using `print("*", end="  ")`.  
-   - Print a newline after each row using `print("")` to move to the next line.  
-5. Terminate the program.
+Algorithm
+
+1. Start the program.
+2. Read the integer n from the user using input(). This determines the number of rows.
+3. Loop through each row from 0 to n - 1:
+   a. Print spaces to align the stars in a triangular pattern.
+   b. Print stars with double spaces between them.
+   c. Move to the next line after each row.
+4. End the program.
+
 
 ---
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add Your Code Here
+#Reg.No:212223050032
+#Name:Nidhish B
+
+n=int(input())
+for i in range(n):
+    for j in range(n-i):
+        print(i+1,end=" ")
+    print()
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/9928039b-c0df-46a9-ba93-5f4ac9dd0ea5)
+
 ### RESULT
+
+Thus the python program to print inverted pyramid pattern of numbers using loops is successfully executed.
