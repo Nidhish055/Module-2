@@ -10,7 +10,6 @@ To write a Python program to print inverted pyramid pattern of numbers using loo
 
 ### ALGORITHM
 
-Algorithm
 
 1. Start the program.
 2. Read the integer n from the user using input(). This determines the number of rows.
@@ -24,7 +23,7 @@ Algorithm
 ---
 
 ### PROGRAM
-```
+```python
 #Reg.No:212223050032
 #Name:Nidhish B
 
