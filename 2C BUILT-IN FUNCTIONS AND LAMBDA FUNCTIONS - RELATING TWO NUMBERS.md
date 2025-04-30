@@ -4,37 +4,43 @@
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+
+To write a Python program to find the greatest of two numbers using lambda function.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+ 1. Start the program.
+ 2. Get two numbers from the user using input() and convert them to integers.
+ 3. Define a lambda function that returns the greater of the two numbers.
+ 4. Call the lambda function with the two input numbers.
+ 5. Print the greatest number.
+ 6. End the program.
+
 
 ---
 
 ### PROGRAM
 
 ```
+#Name: Nidhish B
+#Reg No : 212223050032
 
+a=int(input())
+b=int(input())
+
+greater=lambda a,b:a if a>b else b
+greatest=greater(a,b)
+
+print(f"The greatest number is: {greatest}")
 ```
 
 ### OUTPUT
 
-```
+![image](https://github.com/user-attachments/assets/52c3f879-09ee-4c60-ad2a-40aa7f818c32)
 
-```
 
 ### RESULT
 
-```
-
-```
+Thus the program to find the greatest of two numbers using lambda function successfully executed.
